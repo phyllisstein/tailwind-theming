@@ -6,7 +6,10 @@ module.exports = {
       'sans': ['Helvetica'],
       'serif': ['Georgia'],
       'mono': ['ui-monospace', 'SFMono-Regular'],
-      'headline': "var(--headline-font-family)"
+      'headline': "var(--headline-font-family)",
+      'canela': ['Canela-Light'],
+      'chap': ['Chap-Light'],
+      'chap-bold': ['Chap-Bold'],
      },
      backgroundColor: theme => ({
       ...theme('colors'),

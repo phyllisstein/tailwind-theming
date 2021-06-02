@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+@font-face {
+	font-family: 'Canela-Light';
+	src: url('https://assets.codepen.io/495601/Canela-Light.ttf')  format('truetype');
+}
+
+@font-face {
+	font-family: 'Chap-Light';
+	src: url('https://assets.codepen.io/495601/Chap-Light.ttf')  format('truetype');
+}
+
+@font-face {
+	font-family: 'Chap-Bold';
+	src: url('https://assets.codepen.io/495601/Chap-Semibold.ttf')  format('truetype');
+}
+
+
 @layer base {
 
   .vox--vars {
