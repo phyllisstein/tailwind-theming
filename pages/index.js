@@ -25,13 +25,8 @@ export default function Home() {
         </Link>
       </div>
       <div>
-        <Link href="/shared" theme="vox">
-          <a>shared lede</a>
-        </Link>
-      </div>
-      <div>
         <Link href="/sharedv2">
-          <a>shared lede v2</a>
+          <a>shared lede</a>
         </Link>
       </div>
     </div>
