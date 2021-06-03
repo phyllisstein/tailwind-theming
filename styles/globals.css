@@ -10,13 +10,28 @@
 }
 
 @font-face {
-	font-family: 'Chap-Light';
-	src: url('https://assets.codepen.io/495601/Chap-Light.ttf')  format('truetype');
+	font-family: 'Chap-Bold';
+	src: url('https://assets.codepen.io/495601/Chap-Semibold.ttf')  format('truetype');
 }
 
 @font-face {
-	font-family: 'Chap-Bold';
-	src: url('https://assets.codepen.io/495601/Chap-Semibold.ttf')  format('truetype');
+	font-family: 'Chap-Light';
+	src: url('hhttps://assets.codepen.io/495601/Chap-Light.ttf')  format('truetype');
+}
+
+@font-face {
+	font-family: 'Miller';
+	src: url('https://assets.codepen.io/495601/MillerText-Roman.ttf')  format('truetype');
+}
+
+@font-face {
+	font-family: 'Miller-Italic';
+	src: url('https://assets.codepen.io/495601/MillerText-Italic.ttf')  format('truetype');
+}
+
+@font-face {
+	font-family: 'Elderkin';
+	src: url('https://assets.codepen.io/495601/Elderkin-Medium.ttf')  format('truetype');
 }
 
 

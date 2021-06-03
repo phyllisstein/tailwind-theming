@@ -3,7 +3,7 @@ import React from 'react'
 export default function TheCutLede() {
     return (
         <div className="max-w-6xl m-auto my-24 pt-4 border-t border-black">
-            <div className="uppercase text-xs mb-5"><span className="font-chap-bold">Rideables</span> <span className="text-red-500 px-2">|</span>  <span className="font-chap">May 27, 2021</span></div>
+            <div className="uppercase tracking-widest text-xs mb-5"><span className="font-chap-bold">Rideables</span> <span className="text-red-500 px-2">|</span>  <span className="font-chap">May 27, 2021</span></div>
             <h1 className="font-canela text-4xl mb-2">
                 Bird announces its third-generation electric scooter with automatic emergency braking
             </h1>

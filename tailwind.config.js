@@ -10,6 +10,9 @@ module.exports = {
       'canela': ['Canela-Light'],
       'chap': ['Chap-Light'],
       'chap-bold': ['Chap-Bold'],
+      'miller': ['Miller'],
+      'miller-italic': ['Miller-Italic'],
+      'elderkin': ['Elderkin']
      },
      backgroundColor: theme => ({
       ...theme('colors'),
