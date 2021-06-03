@@ -13,7 +13,7 @@ export default function TheCutFeatureLede() {
                     </h1>
                     <h2 className="font-canela text-gray-500 text-5xl inline">His recut of The Godfather: Part III is one of his most personal projects yet, but it’s hardly his last.</h2>
                     </div>
-                    <p className="font-chap tracking-widest text-sm pb-4 mb-8">By Bilge Ebiri <span className="text-red-500 px-2">|</span> Photograph by Katy Grannan</p>
+                    <p className="font-chap tracking-widest text-xs pb-4 mb-8">By Bilge Ebiri <span className="text-red-500 px-2">|</span> Photograph by Katy Grannan</p>
                     </div>
                     <figure className="w-1/2">
                         <img className="w-full h-full mb-2" src="https://pyxis.nymag.com/v1/imgs/74f/d38/457f4cfaffd76cd4b149b85c85b0592fc5-10-francis-ford-coppola-opener.2x.rvertical.w570.jpg"></img>
