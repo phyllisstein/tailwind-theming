@@ -12,6 +12,7 @@ module.exports = {
       'chap-bold': ['Chap-Bold'],
       'miller': ['Miller'],
       'miller-italic': ['Miller-Italic'],
+      'miller-display': ['Miller-Display'],
       'elderkin': ['Elderkin']
      },
      backgroundColor: theme => ({

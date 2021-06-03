@@ -25,13 +25,18 @@
 }
 
 @font-face {
+	font-family: 'Miller-Display';
+	src: url('https://assets.codepen.io/495601/MillerDisplay-Light.ttf')  format('truetype');
+}
+
+@font-face {
 	font-family: 'Miller-Italic';
 	src: url('https://assets.codepen.io/495601/MillerText-Italic.ttf')  format('truetype');
 }
 
 @font-face {
 	font-family: 'Elderkin';
-	src: url('https://assets.codepen.io/495601/Elderkin-Medium.ttf')  format('truetype');
+	src: url('https://assets.codepen.io/495601/Elderkin-Bold.ttf')  format('truetype');
 }
 
 
