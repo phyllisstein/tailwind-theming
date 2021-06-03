@@ -12,7 +12,7 @@ export default function TheCutFeature() {
             <Hed>
                 Bird announces its third-generation electric scooter with automatic emergency braking
             </Hed>
-            <Byline>
+            <Byline className="mb-0">
                 By Andrew J. Hawkins
             </Byline>
         </TheCutFeatureLede>
