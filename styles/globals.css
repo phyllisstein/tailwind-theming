@@ -16,7 +16,7 @@
 
 @font-face {
 	font-family: 'Chap-Light';
-	src: url('hhttps://assets.codepen.io/495601/Chap-Light.ttf')  format('truetype');
+	src: url('https://assets.codepen.io/495601/Chap-Light.ttf')  format('truetype');
 }
 
 @font-face {
@@ -58,7 +58,79 @@
     @apply font-serif text-xl bg-yellow-300;
   }
 
-  .thecut .lede-headline {
-    @apply font-sans text-3xl bg-gray-200;
+  .thecut .lede-container {
+    @apply max-w-6xl m-auto my-24 pt-4 border-t border-black;
   }
+
+  .thecut .meta {
+    @apply uppercase tracking-widest text-xs mb-5;
+  }
+
+  .thecut .tag {
+    @apply font-chap-bold;
+  }
+
+  .thecut .tag-separator {
+    @apply text-red-500 px-2;
+  }
+
+  .thecut .date {
+    @apply font-chap;
+  }
+
+  .thecut .lede-headline {
+   @apply font-canela text-4xl mb-2;
+  }
+
+  .thecut .byline {
+   @apply font-chap text-sm border-b border-gray-300 pb-4 mb-8;
+  }
+
+  .thecut .image {
+    @apply w-2/3 mb-2;
+  }
+
+  .thecut .credit {
+   @apply font-chap text-gray-500 text-xs;
+  }
+
+
+  .vulture .lede-container {
+    @apply max-w-6xl m-auto my-24 pt-4 border-t-2 border-black;
+  }
+
+  .vulture .meta {
+    @apply uppercase mb-5 tracking-widest;
+  }
+
+  .vulture .tag {
+    @apply font-elderkin text-sm;
+  }
+
+  .vulture .tag-separator {
+    @apply text-blue-500 px-2;
+  }
+
+  .vulture .date {
+    @apply font-miller text-xs;
+  }
+
+  .vulture .lede-headline {
+   @apply font-miller text-4xl mb-2;
+  }
+
+  .vulture .byline {
+   @apply font-miller-italic tracking-widest text-sm border-b border-gray-300 pb-4 mb-8;
+  }
+
+  .vulture .image {
+    @apply w-2/3 mb-2;
+  }
+
+  .vulture .credit {
+   @apply font-miller text-gray-500 text-xs;
+  }
+
+
+
 }
