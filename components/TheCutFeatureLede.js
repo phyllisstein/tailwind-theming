@@ -20,7 +20,7 @@ export default function TheCutFeatureLede() {
                     </figure>
                 </div>
         </div>
-        <figcaption className="font-miller text-xs w-1/2 ml-auto pl-20">“I’ve always been doing weird, stupid things and following my heart. It made no sense to handle my career the way I did, but I wouldn’t do it another way.” <span className="text-gray-500">Photo: Katy Grannan for New York Magazine</span>
+        <figcaption className="font-chap text-gray-500 text-xs w-1/2 ml-auto pl-20">“I’ve always been doing weird, stupid things and following my heart. It made no sense to handle my career the way I did, but I wouldn’t do it another way.” <span className="text-gray-500">Photo: Katy Grannan for New York Magazine</span>
         </figcaption>
     </div>
     )

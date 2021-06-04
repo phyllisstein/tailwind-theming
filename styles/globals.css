@@ -20,7 +20,7 @@
 }
 
 @font-face {
-	font-family: 'Miller';
+	font-family: 'Miller-Text';
 	src: url('https://assets.codepen.io/495601/MillerText-Roman.ttf')  format('truetype');
 }
 
@@ -39,25 +39,9 @@
 	src: url('https://assets.codepen.io/495601/Elderkin-Bold.ttf')  format('truetype');
 }
 
-
-@layer base {
-
-  .vox--vars {
-    --headline-font-family: 'Courier';
-    --background-color-primary: '#fff200';
-  }
-  
-  .thecut--vars {
-    --headline-font-family: 'Georgia';
-    --background-color-primary: '#e5e7eb';
-  }
-}
-
 @layer components {
-  .vox .lede-headline {
-    @apply font-serif text-xl bg-yellow-300;
-  }
 
+  /* the cut standard lede styles */
   .thecut .lede-container {
     @apply max-w-6xl m-auto my-24 pt-4 border-t border-black;
   }
@@ -94,7 +78,7 @@
    @apply font-chap text-gray-500 text-xs;
   }
 
-
+  /* vulture standard lede styles */
   .vulture .lede-container {
     @apply max-w-6xl m-auto my-24 pt-4 border-t-2 border-black;
   }
@@ -104,7 +88,7 @@
   }
 
   .vulture .tag {
-    @apply font-elderkin text-sm;
+    @apply font-elderkin text-elderkin-xs;
   }
 
   .vulture .tag-separator {
@@ -112,15 +96,15 @@
   }
 
   .vulture .date {
-    @apply font-miller text-xs;
+    @apply font-miller-text text-miller-text-xs;
   }
 
   .vulture .lede-headline {
-   @apply font-miller text-4xl mb-2;
+   @apply font-miller-text text-miller-text-xl mb-2;
   }
 
   .vulture .byline {
-   @apply font-miller-italic tracking-widest text-sm border-b border-gray-300 pb-4 mb-8;
+   @apply font-miller-italic tracking-widest text-miller-text-xs border-b border-gray-300 pb-4 mb-8;
   }
 
   .vulture .image {
@@ -128,7 +112,7 @@
   }
 
   .vulture .credit {
-   @apply font-miller text-gray-500 text-xs;
+   @apply font-miller-text text-gray-500 text-miller-text-xs;
   }
 
 
