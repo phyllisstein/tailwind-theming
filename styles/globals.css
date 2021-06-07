@@ -47,7 +47,7 @@
   }
 
   .thecut .meta {
-    @apply uppercase tracking-widest text-xs mb-5;
+    @apply uppercase text-chap-xs mb-5;
   }
 
   .thecut .tag {
@@ -63,11 +63,11 @@
   }
 
   .thecut .lede-headline {
-   @apply font-canela text-4xl mb-2;
+   @apply font-canela text-canela-l mb-2;
   }
 
   .thecut .byline {
-   @apply font-chap text-sm border-b border-gray-300 pb-4 mb-8;
+   @apply font-chap text-chap-s border-b border-gray-300 pb-4 mb-8;
   }
 
   .thecut .image {
@@ -75,7 +75,7 @@
   }
 
   .thecut .credit {
-   @apply font-chap text-gray-500 text-xs;
+   @apply font-chap text-gray-500 text-chap-xs tracking-normal;
   }
 
   /* vulture standard lede styles */
@@ -84,7 +84,7 @@
   }
 
   .vulture .meta {
-    @apply uppercase mb-5 tracking-widest;
+    @apply uppercase mb-5;
   }
 
   .vulture .tag {
@@ -104,7 +104,7 @@
   }
 
   .vulture .byline {
-   @apply font-miller-italic tracking-widest text-miller-text-xs border-b border-gray-300 pb-4 mb-8;
+   @apply font-miller-italic text-miller-text-xs border-b border-gray-300 pb-4 mb-8;
   }
 
   .vulture .image {
@@ -112,7 +112,7 @@
   }
 
   .vulture .credit {
-   @apply font-miller-text text-gray-500 text-miller-text-xs;
+   @apply font-miller-text text-gray-500 text-miller-text-2xs tracking-wider;
   }
 
 
