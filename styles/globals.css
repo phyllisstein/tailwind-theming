@@ -47,7 +47,7 @@
   }
 
   .thecut .meta {
-    @apply uppercase text-chap-xs mb-5;
+    @apply uppercase text-chap-2xs mb-5;
   }
 
   .thecut .tag {
@@ -63,11 +63,11 @@
   }
 
   .thecut .lede-headline {
-   @apply font-canela text-canela-l mb-2;
+   @apply font-canela text-canela-2xl mb-2;
   }
 
   .thecut .byline {
-   @apply font-chap text-chap-s border-b border-gray-300 pb-4 mb-8;
+   @apply font-chap text-chap-2xs border-b border-gray-300 pb-4 mb-8;
   }
 
   .thecut .image {
@@ -75,7 +75,7 @@
   }
 
   .thecut .credit {
-   @apply font-chap text-gray-500 text-chap-xs tracking-normal;
+   @apply font-chap text-gray-500 text-chap-2xs tracking-normal;
   }
 
   /* vulture standard lede styles */

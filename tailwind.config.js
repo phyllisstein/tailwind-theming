@@ -25,10 +25,18 @@ module.exports = {
         'miller-display-l': ['24px', {lineHeight: '1', letterSpacing: '0'}],
         'miller-display-xl': ['49px', {lineHeight: '1', letterSpacing: '-0.15px'}],
         'canela-xs': ['12px', {lineHeight: '1.17', letterSpacing: '2px'}],
-        'canela-l': ['40px', {lineHeight: '1.05', letterSpacing: '2px'}],
-        'canela-xl': ['48px', {lineHeight: '1.1', letterSpacing: '.2px'}],
-        'chap-xs': ['12px', {lineHeight: '1', letterSpacing: '2px'}],
-        'chap-s': ['13px', {lineHeight: '1.5', letterSpacing: '1px'}]
+        'canela-base': ['20px', {lineHeight: '1.1', letterSpacing: '0'}],
+        'canela-m': ['28px', {lineHeight: '1.2', letterSpacing: '-0.2px'}],
+        'canela-l': ['30px', {lineHeight: '1.05', letterSpacing: '0'}],
+        'canela-xl': ['35px', {lineHeight: '1.1', letterSpacing: '.2px'}],
+        'canela-2xl': ['40px', {lineHeight: '1.1', letterSpacing: '.2px'}],
+        'canela-3xl': ['48px', {lineHeight: '1.05', letterSpacing: '.2px'}],
+        'chap-4xs': ['11px', {lineHeight: '1.3', letterSpacing: '2px'}],
+        'chap-3xs': ['12px', {lineHeight: '1', letterSpacing: '2px'}],
+        'chap-2xs': ['13px', {lineHeight: '1.5', letterSpacing: '1px'}],
+        'chap-xs': ['15px', {lineHeight: '1', letterSpacing: '1.6px'}],
+        'chap-base': ['18px', {lineHeight: '1', letterSpacing: '3px'}],
+        'chap-m': ['24px', {lineHeight: '1', letterSpacing: '3px'}]
       }
     },
     fontFamily: {

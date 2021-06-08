@@ -22,7 +22,7 @@ export default function VultureFeatureLede() {
                 </div>
                 </div>
         </div>
-        <figcaption className="font-miller-text text-miller-text-2xs w-1/2 ml-auto pl-20 tracking-wider">“I’ve always been doing weird, stupid things and following my heart. It made no sense to handle my career the way I did, but I wouldn’t do it another way.” <span class="text-gray-500">Photo: Katy Grannan for New York Magazine</span>
+        <figcaption className="font-miller-text text-miller-text-2xs w-1/2 ml-auto pl-20 tracking-wider leading-snug">“I’ve always been doing weird, stupid things and following my heart. It made no sense to handle my career the way I did, but I wouldn’t do it another way.” <span class="text-gray-500">Photo: Katy Grannan for New York Magazine</span>
         </figcaption>
     </div>
     )
