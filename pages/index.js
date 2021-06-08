@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import SharedLede from '../components/SharedLede'
 
 export default function Home() {
   return (
@@ -25,8 +24,8 @@ export default function Home() {
         </Link>
       </div>
       <div>
-        <Link href="/sharedv2">
-          <a>shared lede</a>
+        <Link href="/sharedStandard">
+          <a>shared standard lede</a>
         </Link>
       </div>
     </div>

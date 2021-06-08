@@ -1,4 +1,4 @@
-export default function SharedLede2(props) {
+export default function SharedStandardLede(props) {
     return (
         <div className={props.theme}>
             <div className="lede-container">
