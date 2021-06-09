@@ -10,6 +10,11 @@
 }
 
 @font-face {
+	font-family: 'Canela-Medium';
+	src: url('https://assets.codepen.io/495601/Canela-Medium.ttf')  format('truetype');
+}
+
+@font-face {
 	font-family: 'Chap-Bold';
 	src: url('https://assets.codepen.io/495601/Chap-Semibold.ttf')  format('truetype');
 }

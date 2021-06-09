@@ -21,7 +21,7 @@ module.exports = {
         'miller-text-base': ['18px', {lineHeight: '1.625', letterSpacing: '0'}],
         'miller-text-m': ['21px', {lineHeight: '1.2', letterSpacing: '0'}],
         'miller-text-l': ['28px', {lineHeight: '1.2', letterSpacing: '0'}],
-        'miller-text-xl': ['36px', {lineHeight: '1', letterSpacing: '-.01em'}],
+        'miller-text-xl': ['36px', {lineHeight: '1.02', letterSpacing: '-.36px'}],
         'miller-display-l': ['24px', {lineHeight: '1', letterSpacing: '0'}],
         'miller-display-xl': ['49px', {lineHeight: '1', letterSpacing: '-0.15px'}],
         'canela-xs': ['12px', {lineHeight: '1.17', letterSpacing: '2px'}],
@@ -29,7 +29,7 @@ module.exports = {
         'canela-m': ['28px', {lineHeight: '1.2', letterSpacing: '-0.2px'}],
         'canela-l': ['30px', {lineHeight: '1.05', letterSpacing: '0'}],
         'canela-xl': ['35px', {lineHeight: '1.1', letterSpacing: '.2px'}],
-        'canela-2xl': ['40px', {lineHeight: '1.1', letterSpacing: '.2px'}],
+        'canela-2xl': ['40px', {lineHeight: '1.05', letterSpacing: '.2px'}],
         'canela-3xl': ['48px', {lineHeight: '1.05', letterSpacing: '.2px'}],
         'chap-4xs': ['11px', {lineHeight: '1.3', letterSpacing: '2px'}],
         'chap-3xs': ['12px', {lineHeight: '1', letterSpacing: '2px'}],
@@ -44,6 +44,7 @@ module.exports = {
       'serif': ['Georgia'],
       'mono': ['ui-monospace', 'SFMono-Regular'],
       'canela': ['Canela-Light'],
+      'canela-bold': ['Canela-Medium'],
       'chap': ['Chap-Light'],
       'chap-bold': ['Chap-Bold'],
       'miller-text': ['Miller-Text'],
@@ -52,12 +53,12 @@ module.exports = {
       'elderkin': ['Elderkin']
      },
     letterSpacing: {
-      'tighter': '-.01em',
-      'tight': '-.025em',
+      'tighter': '-.35px',
+      'tight': '-.2px',
       'normal': '0',
-      'wide': '.01em',
-      'wider': '.025em',
-      'widest': '.05em',
+      'wide': '.3px',
+      'wider': '1px',
+      'widest': '2px',
     },
     lineHeight: {
       'none': '1',
@@ -66,6 +67,17 @@ module.exports = {
       'nomal': '1.4',
       'relaxed': '1.625',
       'loose': '2'
+    },
+    borderWidth: {
+      DEFAULT: '1px',
+      '0': '0',
+      '2': '2px',
+      '3': '3px',
+      '4': '4px',
+      '6': '6px',
+      '8': '8px',
+      '10': '10px',
+      '12': '12px'
     }
   },
   variants: {
