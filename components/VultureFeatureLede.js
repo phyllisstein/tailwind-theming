@@ -7,7 +7,7 @@ export default function VultureFeatureLede() {
             <div className="w-full border-l-12 pl-20 border-black">
                 <div className="flex flex-row">
                     <div className="w-1/2 flex flex-col justify-center pr-20">
-                    <div className="uppercase mb-5"><span className="font-elderkin text-elderkin-xs border-r border-blue-500 pr-2">Rideables</span><span className="pl-3 font-miller-text text-miller-text-2xs">May 27, 2021</span></div>
+                    <div className="uppercase mb-5"><span className="font-elderkin text-elderkin-xs border-r border-vulture-blue pr-2">Rideables</span><span className="pl-3 font-miller-text text-miller-text-2xs">May 27, 2021</span></div>
                     <div className="block mb-4">
                     <h1 className="inline font-elderkin text-elderkin-4xl mr-2">
                     The company says it’s the safest scooter yet

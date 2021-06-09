@@ -37,6 +37,9 @@ module.exports = {
         'chap-xs': ['15px', {lineHeight: '1', letterSpacing: '1.6px'}],
         'chap-base': ['18px', {lineHeight: '1', letterSpacing: '3px'}],
         'chap-m': ['24px', {lineHeight: '1', letterSpacing: '3px'}]
+      },
+      colors: {
+        'vulture-blue': '#00bcf1'
       }
     },
     fontFamily: {
