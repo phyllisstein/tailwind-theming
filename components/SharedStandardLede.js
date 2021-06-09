@@ -2,7 +2,7 @@ export default function SharedStandardLede(props) {
     return (
         <div className={props.theme}>
             <div className="lede-container">
-            <div className="meta"><span className="tag">Rideables</span> <span className="tag-separator">|</span>  <span className="date">May 27, 2021</span></div>
+            <div className="meta"><span className="tag">Rideables</span> <span className="date">May 27, 2021</span></div>
             <h1 className="lede-headline">
                 Bird announces its third-generation electric scooter with automatic emergency braking
             </h1>

@@ -36,10 +36,18 @@ module.exports = {
         'chap-2xs': ['13px', {lineHeight: '1.5', letterSpacing: '1px'}],
         'chap-xs': ['15px', {lineHeight: '1', letterSpacing: '1.6px'}],
         'chap-base': ['18px', {lineHeight: '1', letterSpacing: '3px'}],
-        'chap-m': ['24px', {lineHeight: '1', letterSpacing: '3px'}]
+        'chap-m': ['24px', {lineHeight: '1', letterSpacing: '3px'}],
+        'balto-xs': ['12px', {lineHeight: '1.17', letterSpacing: '2px'}],
+        'balto-base': ['20px', {lineHeight: '1.1', letterSpacing: '0'}],
+        'balto-m': ['28px', {lineHeight: '1.2', letterSpacing: '-0.2px'}],
+        'balto-l': ['30px', {lineHeight: '1.05', letterSpacing: '0'}],
+        'balto-xl': ['35px', {lineHeight: '1.1', letterSpacing: '.2px'}],
+        'balto-2xl': ['40px', {lineHeight: '1.05', letterSpacing: '.2px'}],
+        'balto-3xl': ['58px', {lineHeight: '1.2', letterSpacing: '.2px'}],
       },
       colors: {
-        'vulture-blue': '#00bcf1'
+        'vulture-blue': '#00bcf1',
+        'vox-yellow': '#FFF200'
       }
     },
     fontFamily: {
@@ -53,7 +61,9 @@ module.exports = {
       'miller-text': ['Miller-Text'],
       'miller-italic': ['Miller-Italic'],
       'miller-display': ['Miller-Display'],
-      'elderkin': ['Elderkin']
+      'elderkin': ['Elderkin'],
+      'balto': ['Balto'],
+      'balto-bold': ['Balto-Bold']
      },
     letterSpacing: {
       'tighter': '-.35px',
