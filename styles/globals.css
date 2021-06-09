@@ -128,3 +128,16 @@
 
 
 }
+
+.vox-highlight:after {
+  content: '';
+  position: absolute;
+  left: -3px;
+  top: 1px;
+  display: inline-block;
+  width: 56px;
+  height: 8px;
+  background-color: #fff;
+  margin-top: 5px;
+  z-index: -1;
+}

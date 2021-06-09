@@ -43,7 +43,7 @@ module.exports = {
         'balto-l': ['30px', {lineHeight: '1.05', letterSpacing: '0'}],
         'balto-xl': ['35px', {lineHeight: '1.1', letterSpacing: '.2px'}],
         'balto-2xl': ['40px', {lineHeight: '1.05', letterSpacing: '.2px'}],
-        'balto-3xl': ['56px', {lineHeight: '1.2', letterSpacing: '.2px'}],
+        'balto-3xl': ['56px', {lineHeight: '1.5', letterSpacing: '.2px'}],
       },
       colors: {
         'vulture-blue': '#00bcf1',
