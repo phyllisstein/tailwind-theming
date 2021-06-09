@@ -23,7 +23,7 @@ export default function VultureFeatureLede() {
                 </div>
                 </div>
         </div>
-        <figcaption className="font-miller-text text-miller-text-2xs w-1/2 ml-auto pl-20 tracking-wide leading-snug">Photo: Bird <span class="text-gray-500">Photo: Katy Grannan for New York Magazine</span>
+        <figcaption className="font-miller-text text-miller-text-2xs w-1/2 ml-auto pl-20 tracking-wide leading-snug">Photo: Bird
         </figcaption>
     </div>
     )
