@@ -60,19 +60,23 @@
 @layer components {
 
   /* the cut standard lede styles */
-  .thecut .lede-container {
-    @apply max-w-6xl m-auto my-24 pt-4 border-t border-black;
+  .thecut .lede-text {
+    @apply max-w-6xl m-auto mt-24 pt-4 border-t border-black;
   }
 
-  .thecut .meta {
+  .thecut .lede-meta {
     @apply uppercase text-chap-xs mb-5;
   }
 
-  .thecut .tag {
+  .thecut .lede-separator {
+    @apply hidden;
+   }
+
+  .thecut .lede-tag {
     @apply font-chap-bold border-r border-red-500 pr-2;
   }
 
-  .thecut .date {
+  .thecut .lede-date {
     @apply font-chap pl-3;
   }
 
@@ -80,32 +84,47 @@
    @apply font-canela text-canela-2xl mb-3;
   }
 
-  .thecut .byline {
+  .thecut .lede-dek {
+    @apply hidden;
+   }
+
+  .thecut .lede-byline {
    @apply font-chap text-chap-3xs border-b border-gray-300 pb-4 mb-8 tracking-wider;
   }
+  .thecut .lede-twitter {
+    @apply hidden
+  }
 
-  .thecut .image {
+  .thecut .lede-image-container {
+    @apply max-w-6xl m-auto mb-24;
+  }
+
+  .thecut .lede-image {
     @apply w-2/3 mb-2;
   }
 
-  .thecut .credit {
+  .thecut .lede-image-credit {
    @apply font-chap text-gray-500 text-chap-2xs tracking-normal;
   }
 
   /* vulture standard lede styles */
-  .vulture .lede-container {
-    @apply max-w-6xl m-auto my-24 pt-4 border-t-3 border-black;
+  .vulture .lede-text {
+    @apply max-w-6xl m-auto mt-24 pt-4 border-t-3 border-black;
   }
 
-  .vulture .meta {
+  .vulture .lede-meta {
     @apply uppercase mb-5;
   }
 
-  .vulture .tag {
+  .vulture .lede-separator {
+    @apply hidden;
+   }
+
+  .vulture .lede-tag {
     @apply font-elderkin text-elderkin-xs border-r border-vulture-blue pr-2;
   }
 
-  .vulture .date {
+  .vulture .lede-date {
     @apply font-miller-text text-miller-text-2xs pl-3;
   }
 
@@ -113,19 +132,78 @@
    @apply font-miller-text text-miller-text-xl mb-2;
   }
 
-  .vulture .byline {
+  .vulture .lede-dek {
+    @apply hidden;
+   }
+
+  .vulture .lede-byline {
    @apply font-miller-italic text-miller-text-xs border-b border-gray-300 pb-4 mb-8;
   }
+  .vulture .lede-twitter {
+    @apply hidden
+  }
 
-  .vulture .image {
+  .vulture .lede-image-container {
+    @apply max-w-6xl m-auto mb-24;
+  }
+
+  .vulture .lede-image {
     @apply w-2/3 mb-2;
   }
 
-  .vulture .credit {
+  .vulture .lede-image-credit {
    @apply font-miller-text text-gray-500 text-miller-text-2xs tracking-wider;
   }
 
+  /* vox standard lede styles */
 
+  .vox .lede-container {
+    @apply bg-vox-yellow w-full text-center py-24;
+  }
+
+  .vox .lede-text {
+    @apply max-w-6xl m-auto;
+  }
+
+  .vox .lede-meta {
+    @apply text-balto-xs mb-8 tracking-normal;
+  }
+
+  .vox .lede-tag {
+    @apply font-balto-bold pr-2 relative z-0 vox-highlight;
+  }
+
+  .vox .lede-date {
+    @apply font-balto pl-2 text-gray-500;
+  }
+
+  .vox .lede-headline {
+   @apply font-balto-bold text-balto-xl mb-4;
+  }
+
+  .vox .lede-dek {
+    @apply font-balto text-balto-base mb-8;
+   }
+
+  .vox .lede-byline {
+   @apply font-balto text-balto-xs pb-4 mb-8 tracking-normal;
+  }
+
+  .vox .lede-byline-name {
+    @apply relative z-0 vox-highlight font-balto-bold;
+   }
+
+  .vox .lede-image-container {
+    @apply max-w-6xl m-auto -mt-16;
+  }
+
+  .vox .lede-image {
+    @apply w-2/3 mb-2;
+  }
+
+  .vox .lede-image-credit {
+   @apply font-balto text-gray-500 text-balto-xs tracking-normal mb-8;
+  }
 
 }
 

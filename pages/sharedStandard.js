@@ -6,7 +6,11 @@ export default function Shared() {
     const [theme, setTheme] = useState("vulture")
     return (
         <div>
-            <button onClick={() => setTheme(theme==="vulture" ? "thecut" : "vulture")} className="mt-8 ml-8 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">Change theme</button>
+            <div className="text-center my-8">Choose theme:
+            <span onClick={() => setTheme("thecut")} className="px-12 cursor-pointer underline">The Cut</span> /
+            <span onClick={() => setTheme("vulture")} className="px-12 cursor-pointer underline">Vulture</span> /
+            <span onClick={() => setTheme("vox")} className="px-12 cursor-pointer underline">Vox</span>
+            </div>
             <SharedStandardLede theme={theme}></SharedStandardLede>
         </div>
     )

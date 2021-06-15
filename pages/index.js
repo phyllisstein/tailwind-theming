@@ -24,6 +24,11 @@ export default function Home() {
         </Link>
       </div>
       <div>
+        <Link href="/vox">
+          <a>vox standard lede</a>
+        </Link>
+      </div>
+      <div>
         <Link href="/voxFeature">
           <a>vox feature lede</a>
         </Link>
