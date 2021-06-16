@@ -65,7 +65,7 @@
   }
 
   .thecut .lede-meta {
-    @apply uppercase text-chap-xs mb-5;
+    @apply uppercase text-chap-3xs mb-5;
   }
 
   .thecut .lede-separator {
