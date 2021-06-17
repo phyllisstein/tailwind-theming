@@ -8,6 +8,6 @@ export const components = {
     fontSize: 40,
     fontWeight: 700,
     letterSpacing: 0.2,
-    lineHeight: 42,
+    lineHeight: 1.05,
   },
 };

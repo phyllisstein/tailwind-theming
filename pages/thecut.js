@@ -1,6 +1,7 @@
-import { Latest, LatestItem } from '../system/components/Latest'
-import { BlockQuote } from '../system/components/BlockQuote'
-import TheCutLede from '../components/TheCutLede'
+import { Latest, LatestItem } from '../system/components/Latest';
+import { BlockQuote } from '../system/components/BlockQuote';
+import { Hed } from '../system/components/Hed';
+import TheCutLede from '../components/TheCutLede';
 
 export default function TheCut() {
   return (
@@ -17,6 +18,7 @@ export default function TheCut() {
           Soylent Green Could Be a Delicious Reality
         </LatestItem>
       </Latest>
+      <Hed>Quotables</Hed>
       <BlockQuote style={{ fontWeight: 900 }}>
         <p>
           Clay said, "Look… we're coming out once a week, right?
@@ -28,5 +30,5 @@ export default function TheCut() {
         </p>
       </BlockQuote>
     </>
-  )
+  );
 }
