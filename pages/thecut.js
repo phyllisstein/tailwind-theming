@@ -1,5 +1,6 @@
-import TheCutLede from '../components/TheCutLede'
 import { Latest, LatestItem } from '../system/components/Latest'
+import { BlockQuote } from '../system/components/BlockQuote'
+import TheCutLede from '../components/TheCutLede'
 
 export default function TheCut() {
   return (
@@ -16,6 +17,16 @@ export default function TheCut() {
           Soylent Green Could Be a Delicious Reality
         </LatestItem>
       </Latest>
+      <BlockQuote style={{ fontWeight: 900 }}>
+        <p>
+          Clay said, "Look… we're coming out once a week, right?
+          And <span style={{ fontStyle: 'normal' }}>The New Yorker</span> comes out
+          once a week. And we start out the week the same way they do,
+          with blank paper and a supply of ink. Is there any reason we
+          can't be as good as <span style={{ fontStyle: 'normal' }}>The
+          New Yorker</span>?"
+        </p>
+      </BlockQuote>
     </>
   )
 }
