@@ -7,7 +7,7 @@ export default function TheCut() {
   return (
     <>
       <TheCutLede />
-      <Latest style={{ color: 'white', letterSpacing: '4px' }}>
+      <Latest label="Cut Clips" style={{ color: 'white', letterSpacing: '4px' }}>
         <LatestItem>
           5 Reasons Drinking Milk on the Toilet Is Kind of a Game Changer
         </LatestItem>
