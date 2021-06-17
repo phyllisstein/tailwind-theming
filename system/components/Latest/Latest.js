@@ -1,11 +1,11 @@
 import { useDuetTheme } from '../../provider';
 
-export function Latest({ children }) {
+export function Latest({ children, style }) {
   const theme = useDuetTheme();
 
   return (
     <aside>
-      <h3 className="uppercase text-sm pb-4" style={{ color: theme.palette.brandAccent }}>Latest Posts</h3>
+      <h3 style={{ ...style, color: theme.palette.brandAccent, fontSize: '2rem', textTransform: 'uppercase' }}>Latest Posts</h3>
       <ul>{ children }</ul>
     </aside>
   );
