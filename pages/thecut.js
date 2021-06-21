@@ -2,8 +2,11 @@ import { Latest, LatestItem } from '../system/components/Latest';
 import { BlockQuote } from '../system/components/BlockQuote';
 import { Hed } from '../system/components/Hed';
 import TheCutLede from '../components/TheCutLede';
+import useYouTube from '../system/hooks/useYouTube';
 
 export default function TheCut() {
+  const bind = useYouTube('C1JNQKNAvNY');
+
   return (
     <>
       <TheCutLede />
@@ -29,6 +32,7 @@ export default function TheCut() {
           New Yorker</span>?"
         </p>
       </BlockQuote>
+      <div { ...bind() } />
     </>
   );
 }
