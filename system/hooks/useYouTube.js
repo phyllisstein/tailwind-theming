@@ -30,7 +30,7 @@ function useYouTube(videoId, playerConfig) {
       ...playerConfig,
       videoId,
     })
-  }, [SDK_READY, videoId]);
+  }, [SDK_READY, videoId, targetElement]);
 
   const bindFunction = useCallback(() => {
     return {
